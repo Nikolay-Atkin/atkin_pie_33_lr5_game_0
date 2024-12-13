@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url(../Fonts/Marck_Script/MarckScript-Regular.ttf) format('truetype');
+   
+}
+
+html{
+    background-image: url(../img/SwordsBackground.png);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.container{
+    grid-template-rows:  0.1fr 0.45fr 0.85fr 0.2fr 0.2fr 0.2fr;
+    min-height: 100vh;
+    font-family: "MyCustomFont";
+  display: grid; 
+  grid-template-areas:
+  "A1"
+  "B1"
+  "C1"
+  "D1"
+  "D2"
+  "D3"
+
+
+}
+
+
+.A1{
+    grid-area: A1;
+   
+}
+
+.B1{
+    grid-area: B1;
+}
+
+.C1{
+    
+    grid-area: C1;
+}
+
+.D1{
+    grid-area: D1;
+}
+
+.D2{
+    grid-area: D2;
+}
+
+.D3{
+    grid-area: D3;
+
+}
+
+button{
+    box-shadow: none;
+    font-family:MyCustomFont;
+    background-color: #8B4513;
+    font-size: 30px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+}
+
+img{
+    max-width: 20%;
+    height: auto;
+}
+
+p{
+    color: #D5D5D5;
+    font-family:MyCustomFont;
+    font-size: 30px;
+   
+
+}
+@media (max-width:500px) {
+    p{
+        font-size: 16px;
+    }
+
+    button{
+        font-size: 25px;
+    }
+    img{
+        max-width: 70%;
+        height: auto;
+    }
+    
+}
+
+h1{
+    color: #D5D5D5;
+    font-family:MyCustomFont;
+    font-size: 32px;
+
+}
+
+
+
+
+
+
